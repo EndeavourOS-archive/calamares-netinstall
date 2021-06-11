@@ -1,5 +1,5 @@
-- name: "Base-devel + Common packages"
-  description: "Recommended. Don't change unless you know what you're doing. Base-devel group and some other commom utilities (generic)"
+- name: "Base-System + Common packages"
+  description: "Recommended. Don't change unless you know what you're doing!
   hidden: false
   selected: true
   critical: true
@@ -173,7 +173,7 @@
     - diffuse
     - imv
 - name: "Zen Kernel"
-  description: "Will work better in virtual machine sway installations"
+  description: "Will work better in virtual machine SWAY installation"
   hidden: false
   selected: false
   critical: true
