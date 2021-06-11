@@ -4,6 +4,9 @@
   selected: false
   critical: true
   packages:
+    - wayland-protocols
+    - xorg-xwayland
+    - egl-wayland
     - sway
     - swayidle
     - swaylock
