@@ -1,5 +1,5 @@
 - name: "Base-System + Common packages"
-  description: "Recommended. Don't change unless you know what you're doing!
+  description: "Recommended. Don't change unless you know what you're doing!"
   hidden: false
   selected: true
   critical: true
