@@ -1,5 +1,5 @@
-- name: "Base-System + Common packages"
-  description: "Recommended. Don't change unless you know what you're doing!"
+- name: "Base-devel + Common packages"
+  description: "Recommended. Don't change unless you know what you're doing (generic)."
   hidden: false
   selected: true
   critical: true
@@ -63,6 +63,7 @@
     - hwinfo
     - python
     - solid
+    - haveged
     - mlocate
     - ttf-dejavu
     - ttf-liberation
@@ -80,6 +81,7 @@
     - alsa-plugins
     - alsa-firmware
     - glances
+    - python-defusedxml
     - neofetch
     - pulseaudio
     - pavucontrol
@@ -114,6 +116,7 @@
     - welcome
     - eos-update-notifier
     - eos-hooks
+    - eos-rankmirrors
     - mkinitcpio-openswap    
     - eos-log-tool
     - keyserver-rank
@@ -139,6 +142,12 @@
     - thunar-archive-plugin
     - file-roller
     - thunar-volman
+    - gvfs
+    - gvfs-mtp
+    - gvfs-afc
+    - gvfs-gphoto2
+    - gvfs-nfs
+    - gvfs-smb
     - grim
     - slurp
     - otf-font-awesome
@@ -206,8 +215,6 @@
     - gvfs
     - gvfs-mtp
     - gvfs-afc
-    - gvfs-goa
-    - gvfs-google
     - gvfs-gphoto2
     - gvfs-nfs
     - gvfs-smb
