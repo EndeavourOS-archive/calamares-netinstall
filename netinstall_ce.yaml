@@ -9,6 +9,7 @@
     - linux-headers
     - linux-firmware
     - pacman-contrib
+    - downgrade
     - xf86-video-vesa
     - xorg-server
     - xorg-xinit
@@ -129,9 +130,6 @@
   critical: true
   packages:
     - eos-ce-sway
-    - wayland-protocols
-    - xorg-xwayland
-    - egl-wayland
     - sway
     - swayidle
     - swaylock
@@ -143,12 +141,6 @@
     - thunar-archive-plugin
     - file-roller
     - thunar-volman
-    - gvfs
-    - gvfs-mtp
-    - gvfs-afc
-    - gvfs-gphoto2
-    - gvfs-nfs
-    - gvfs-smb
     - grim
     - slurp
     - otf-font-awesome
@@ -164,7 +156,6 @@
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
     - acpi
-    - bluez-utils
     - network-manager-applet
     - sysstat
     - archlinux-xdg-menu
@@ -182,6 +173,13 @@
     - xorg-xhost
     - diffuse
     - imv
+    - boost-libs
+    - oniguruma
+    - jq
+    - wl-clipboard
+    - wayland-protocols
+    - xorg-xwayland
+    - egl-wayland
 - name: "Zen Kernel"
   description: "Will work better in virtual machine SWAY installation"
   hidden: false
@@ -228,7 +226,6 @@
     - acpi
     - sysstat
     - nitrogen
-    - bluez-utils
     - rofi
     - xcursor-neutral
     - xbindkeys
@@ -252,7 +249,6 @@
     - meld
     - xorg-xsetroot
     - htop
-    - hardinfo
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
