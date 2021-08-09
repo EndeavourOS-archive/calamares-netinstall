@@ -77,7 +77,6 @@
     - opendesktop-fonts
     - ttf-opensans
     - firefox
-    - firefox-i18n-$LOCALE
     - alsa-utils
     - alsa-plugins
     - alsa-firmware
@@ -123,6 +122,13 @@
     - keyserver-rank
     - inxi
     - tldr
+- name: "Firefox language package"
+  description: "install firefox language pack if possible"
+  hidden: false
+  selected: true
+  critical: false
+  packages:
+    - firefox-i18n-$LOCALE
 - name: "sway tiling on wayland"
   description: "Sway is a tiling Wayland compositor and a drop-in replacement for the i3 window manager."
   hidden: false
