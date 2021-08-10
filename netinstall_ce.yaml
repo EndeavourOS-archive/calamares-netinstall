@@ -135,7 +135,8 @@
   selected: false
   critical: true
   packages:
-    - eos-ce-sway
+    - name: eos-ce-sway
+      description: EndeavourOS Community sway theming (unselect to install vanilla)
     - sway
     - swayidle
     - swaylock
@@ -200,7 +201,8 @@
   selected: false
   critical: true
   packages:
-    - eos-ce-bspwm
+    - name: eos-ce-bspwm
+      description: EndeavourOS Community bspwm theming (unselect to install vanilla)
     - bspwm
     - sxhkd
     - polybar
