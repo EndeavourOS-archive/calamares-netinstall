@@ -192,7 +192,7 @@
         selected: false
         critical: false
         packages:
-            eos-ce-sway
+           - eos-ce-sway
       - name: "default sway packages"
         description: "needed sway packages"
         selected: false
@@ -266,7 +266,7 @@
         selected: false
         critical: false
         packages:
-            eos-ce-bspwm
+           - eos-ce-bspwm
       - name: "default bspwm packages"
         description: "needed bspwm packages"
         selected: false
