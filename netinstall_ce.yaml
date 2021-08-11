@@ -5,7 +5,7 @@
   critical: true
   subgroups:
       - name: "system-defaults"
-        description: "basic system"
+        description: "Basic system"
         selected: true
         immutable: true
         packages:
@@ -16,7 +16,7 @@
            - lsb-release
            - mkinitcpio-openswap
       - name: "X-system"
-        description: "default X-system"
+        description: "Default X-system"
         selected: true
         packages:
            - xorg-server
@@ -29,7 +29,7 @@
            - xf86-video-fbdev
            - libwnck3
       - name: "GPU drivers"
-        description: "X-system drivers"
+        description: "Graphics hardware drivers"
         selected: true
         packages:
           - xf86-video-amdgpu
@@ -74,7 +74,7 @@
           - dialog
           - dnsmasq
       - name: "packages management"
-        description: "packages tools"
+        description: "Packages tools"
         selected: true
         packages:
           - reflector
@@ -82,7 +82,7 @@
           - pacman-contrib
           - downgrade
       - name: "desktop integration"
-        description: "useful helper tools and libs for desktop usage"
+        description: "Useful helper tools and libs for desktop usage"
         selected: true
         packages:
           - xdg-utils
@@ -101,7 +101,7 @@
           - gst-plugin-pipewire
           - libdvdcss
       - name: "filesystem"
-        description: "filesystem tools and apps"
+        description: "Filesystem tools and apps"
         selected: true
         packages:
           - smartmontools
@@ -122,7 +122,7 @@
           - opendesktop-fonts
           - ttf-opensans
       - name: "audio"
-        description: "audio handling tools apps and libs"
+        description: "Audio handling tools apps and libs"
         selected: true
         packages:
           - alsa-utils
@@ -132,7 +132,7 @@
           - pavucontrol
           - paprefs
       - name: "hardware"
-        description: "hardware support libs and firmware"
+        description: "Hardware support libs and firmware"
         selected: true
         packages:
           - sof-firmware
@@ -142,7 +142,7 @@
           - intel-ucode
           - amd-ucode
       - name: "power"
-        description: "powermanagement support"
+        description: "Powermanagement support"
         selected: true
         packages:
           - tlp
@@ -162,7 +162,7 @@
           - keyserver-rank
           - grub-tools
       - name: "EndeavourOS applications selection"
-        description: "general tools and applications"
+        description: "General tools and applications"
         selected: true
         packages:
           - neofetch
@@ -175,7 +175,7 @@
           - tldr
           - firefox
 - name: "Firefox language package"
-  description: "add firefox language pack if possible"
+  description: "Add firefox language pack if possible"
   hidden: true
   selected: true
   critical: false
@@ -194,7 +194,7 @@
         packages:
           - eos-ce-sway
       - name: "default sway packages"
-        description: "needed sway packages"
+        description: "Needed sway packages"
         selected: false
         packages:
           - sway
@@ -256,7 +256,7 @@
     - linux-zen
     - linux-zen-headers
 - name: "bspwm"
-  description: "bspwm is a tiling window manager that represents windows as the leaves of a full binary tree"
+  description: "Bspwm is a tiling window manager that represents windows as the leaves of a full binary tree"
   hidden: false
   selected: false
   critical: true
@@ -268,7 +268,7 @@
         packages:
           - eos-ce-bspwm
       - name: "default bspwm packages"
-        description: "needed bspwm packages"
+        description: "Needed bspwm packages"
         selected: false
         packages:
           - bspwm
