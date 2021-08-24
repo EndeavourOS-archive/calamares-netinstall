@@ -81,6 +81,7 @@
           - yay
           - pacman-contrib
           - downgrade
+          - rebuild-detector
       - name: "desktop integration"
         description: "Useful helper tools and libs for desktop usage"
         selected: true
@@ -192,7 +193,7 @@
         selected: false
         critical: false
         packages:
-          - eos-ce-sway
+          - eos-skel-ce-sway
       - name: "default sway packages"
         description: "Needed sway packages"
         selected: false
@@ -266,7 +267,7 @@
         selected: false
         critical: false
         packages:
-          - eos-ce-bspwm
+          - eos-skel-ce-bspwm
       - name: "default bspwm packages"
         description: "Needed bspwm packages"
         selected: false
