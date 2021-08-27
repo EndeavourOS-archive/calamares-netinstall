@@ -186,7 +186,7 @@
   description: "Sway is a tiling Wayland compositor and a drop-in replacement for the i3 window manager."
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   critical: true
   subgroups:
       - name: "sway theming"
@@ -251,20 +251,11 @@
           - wayland-protocols
           - xorg-xwayland
           - egl-wayland
-- name: "Zen Kernel"
-  description: "Will work better in virtual machine SWAY installation"
-  hidden: false
-  selected: false
-  expanded: true
-  critical: true
-  packages:
-    - linux-zen
-    - linux-zen-headers
 - name: "bspwm"
   description: "Bspwm is a tiling window manager that represents windows as the leaves of a full binary tree"
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   critical: true
   subgroups:
       - name: "bspwm theming"
@@ -331,6 +322,23 @@
           - meld
           - xorg-xsetroot
           - htop
+- name: "Zen Kernel"
+  description: "Will work better in virtual machine SWAY installation"
+  hidden: false
+  selected: false
+  expanded: false
+  critical: true
+  packages:
+    - linux-zen
+    - linux-zen-headers
+- name: "LTS Kernel in addition"
+  description: "Adding Long Term Supported Kernel in addition to main one"
+  hidden: false
+  selected: false
+  critical: true
+  packages:
+    - linux-lts-headers
+    - linux-lts
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
