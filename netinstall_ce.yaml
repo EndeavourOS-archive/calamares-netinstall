@@ -169,7 +169,6 @@
           - neofetch
           - glances
           - python-defusedxml
-          - hwinfo
           - wget
           - s-tui
           - inxi
