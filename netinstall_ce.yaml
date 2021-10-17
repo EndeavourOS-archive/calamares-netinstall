@@ -10,6 +10,7 @@
         immutable: true
         packages:
            - base-devel
+           - efibootmgr
            - linux-headers
            - linux-firmware
            - python
@@ -137,7 +138,6 @@
         selected: true
         packages:
           - sof-firmware
-          - efibootmgr
           - dosfstools
           - mtools
           - intel-ucode
